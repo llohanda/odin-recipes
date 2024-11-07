@@ -6,10 +6,6 @@ body {
     background-color: lightgrey;
 }
 
-ul ul {
-    list-style-type: disc;
-}
-
 p a {
     color: black;
 }
@@ -20,4 +16,31 @@ p a {
 
 .recipe-list li {
     padding: 4px;
+}
+
+h1, h2, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategrey;
+}
+
+.description {
+    background-color: aliceblue;
+    padding: 8px;
+}
+
+.ingredient, .instruction {
+    padding: 8px 10% 24px;
+    border: 2px black dotted;
+}
+
+.ingredient {
+    background-color: antiquewhite;
+}
+
+.ingredient ul {
+    list-style-type: disc;
+}
+
+.instruction {
+    background-color: bisque;
 }
